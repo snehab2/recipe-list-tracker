@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Recipe List Tracker</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="row">
+      <form class="recipes">
+        <h1>Cook Book</h1>
+        
+        <div class="items">
+          <!--TEXT FIELD FOR RECIPE-->
+          <label for="title">Enter recipe name to learn:</label>
+          <input type="text" id="textBox" class="name"></input>
+
+          <!--TEXT FIELD FOR LINK-->
+          <label for="title">Enter link to recipe:</label>
+          <input type="text" id="textBox" class="link"></input>
+
+          <!--DROP DOWN FOR LEVEL OF DIFFICULTY-->
+          <label for="levelOfDifficulty">Select level of difficulty:</label>
+          <select class="difficulty">
+            <option value="empty"></option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+
+          <!--DROP DOWN FOR TIME COMMITMENT-->
+          <label for="timeCommitment">Select how long the recipe takes to cook:</label>
+          <select class="time">
+            <option value="empty"></option>
+            <option value="Less 15 minutes">Less than 15 minutes</option>
+            <option value="15 to 30 minutes">15 to 30 minutes</option>
+            <option value="More than 30 minutes">More than 30 minutes</option>
+          </select>
+          
+          <!--ADD BUTTON-->
+          <div class="centerButton">
+            <input type="button" value="Add" id="addButton" class="button"></input>
+          </div>
+
+        </div>
+
+        </form>
+
+        <!--ADDED RECIPES CONTAINER-->
+        <div class="addedRecipesContainer">
+          <h1>Added Recipes</h1>
+        </div>
+
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

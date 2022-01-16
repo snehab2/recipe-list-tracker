@@ -1,0 +1,95 @@
+/*HOME PAGE*/
+body{
+  margin:0;
+  background-color:#CDD7D6;
+}
+
+h1{
+  font-family: 'Rubik', sans-serif;
+  color:#F87060;
+}
+
+
+/*THE RECIPE*/
+form{
+  background-color:#102542;
+  width:300px;
+  height:500px;
+  margin:auto;
+  border-radius:20px;
+  padding:40px;
+}
+
+.items{
+  display: flex;
+  flex-direction:column;
+}
+
+label{
+  font-family: 'Rubik', sans-serif;
+  font-size:20px;
+  margin-top:20px;
+  margin-bottom:8px;
+  color:#F87060;
+}
+
+input{
+  font-size:15px;
+}
+
+select{
+  font-size:15px;
+}
+
+.centerButton{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.button{
+  margin-top:40px;
+  width:60px;
+  font-size:20px;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.addedRecipesContainer{
+  background-color:#102542;
+  width:300px;
+  height:auto;
+  margin:auto;
+  border-radius:20px;
+  padding:40px;
+}
+
+.row{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  margin-top:10%;
+}
+
+.recipeRow{
+  background-color:white;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  border-radius:20px;
+  margin-top:10px;
+  margin-bottom:10px;
+  width:300px;
+  color:#102542;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+a{
+  color:#00798C;
+}
+
+a:hover{
+  color:#F87060;
+  transition:0.25s;
+}
